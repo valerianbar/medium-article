@@ -1,0 +1,38 @@
+@media(max-width: 1200px) {
+  .container {
+    width: 1080px;
+  }
+}
+@media(max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
+@media(max-width: 768px) {
+  .container {
+    width: 700px;
+  }
+}
+@media(max-width: 576px) {
+  .container {
+    width: 700px;
+  }
+}
+.banner{
+  background-image: url(https://source.unsplash.com/random/1000x500);
+    background-size: cover;
+    color: white;
+    padding: 120px 0;
+}
+
+div {
+    display: block;
+}
+body {
+    color: #494949;
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: lighter;
+    font-family: 'Lora', serif;
+    margin: 0;
+}
